@@ -1,0 +1,100 @@
+body{
+    /* css reset */
+    height: 100%;
+    background-size: cover;
+    background-image:url("bg-gym.png");
+    background-repeat: no-repeat;
+}
+.left{
+    /*border:2px solid red;*/
+    color:#fff;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 14px;
+}
+.left img{
+    width: 120px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    /*border:2px solid green;*/
+    color:#fff;
+    display:block;
+    width:60%;
+    margin:30px auto;
+    top:20px;
+}
+.right{
+    /*border:2px solid yellow;*/
+    color:#fff;
+    display: inline-block;
+    position: absolute;
+    margin: 18px;
+    top:20px;
+    right: 14px;
+    font-size: large;
+}
+.navbar{
+    display: inline-block;
+}
+ul li{
+    display:inline;
+}
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color:goldenrod;
+}
+.aside{
+    color:white;
+    display: inline-block;
+    position: absolute;
+    margin: 8px;
+    top:250px;
+    left:100px;
+    font-family: italic;
+}
+.container{
+    float: right;
+    color:white;
+   /* border: 2px solid green;*/
+    margin: 70px 70px;
+    padding: 50px;
+    width:33%;
+    border-radius: 2px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 350px;
+    margin: 3px auto;
+    padding: 1px;
+    border: 2px solid black;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.container h1{
+  text-align: center;
+}
+.container button{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    padding: 2px;
+    border-radius: 50px;
+    font-size: large;
+}
